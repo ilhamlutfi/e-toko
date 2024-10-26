@@ -41,8 +41,6 @@ E-Toko adalah aplikasi berbasis web yang dibangun menggunakan OOP PHP 8, SB Admi
         - email: owner@contoh.com
         - password: bnsp123
 
-**Buat Database:**
-
 ## Cara Menggunakan
 
 **Akses Halaman Login:**

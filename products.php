@@ -65,7 +65,7 @@ require 'template/header.php';
                                 <td><img src="assets/img/thumbnails/<?= $product['thumbnail'] ?>" width="100"></td>
                                 <td><?= $product['name'] ?></td>
                                 <td><?= $product['category'] ?></td>
-                                <td><?= $product['price'] ?></td>
+                                <td><?= "Rp. " . number_format($product['price'], 0, ',', '.') ?></td>
                                 <td><?= $product['created_at'] ?></td>
                                 <td class="text-center" width="15%">
                                     <button class="btn btn-success btn-sm" onclick="editProduct(<?php echo $product['id']; ?>)">
